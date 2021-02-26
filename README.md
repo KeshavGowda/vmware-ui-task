@@ -16,8 +16,7 @@ Run `ng serve` to start the application. Navigate to `http://localhost:4200/`.
 
 ### Login page
 ##### `http://localhost:4200/login`  
- - User should enter an email id and password of minimun 6 characters to login. 
- - If the user is already logged in redirects to Home page.
+ - User should enter an email id and password of minimun 6 characters to login.
  - To mock user authentication, a dummy user with email `user@test.com` has been hardcoded in the services for validation. Password can be anything of 6 characters. If we enter any other email id, application displays an error message.
  - If the user is already logged in, we will be navigated to home page directly.
  
